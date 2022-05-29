@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.charusatbookstore">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CharusatBookStore">
+        <activity
+            android:name=".payment"
+            android:exported="true" >
+
+        </activity>
+
+        <meta-data
+
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_yDSK1wCF7eSErr"/>
+
+        <meta-data
+            android:name="com.google.gms.wallet.api.enabled"
+            android:value="true"/>
+        <activity
+            android:name=".User_book"
+            android:exported="true" />
+        <activity
+            android:name=".book_details"
+            android:exported="true" />
+        <activity
+            android:name=".Book_description"
+            android:exported="true" />
+        <activity
+            android:name=".book_upload"
+            android:exported="true" />
+        <activity
+            android:name=".introductory"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".showbook"
+            android:exported="true" />
+        <activity
+            android:name=".upload"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".forget_password"
+            android:exported="true" />
+        <activity
+            android:name=".Edit_profile"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".Depstar_CE_Sem4_Subject"
+            android:exported="true" />
+        <activity
+            android:name=".Depstar_CE_Sem2_Subject"
+            android:exported="true" />
+        <activity
+            android:name=".Depstar_CE_Sem1_Subject"
+            android:exported="true" />
+        <activity
+            android:name=".Depstar_CE_Sem3_Subject"
+            android:exported="true" />
+        <activity
+            android:name=".sem"
+            android:exported="true" />
+        <activity
+            android:name=".college"
+            android:exported="true" />
+        <activity
+            android:name=".rpcpdepartment"
+            android:exported="true" />
+        <activity
+            android:name=".pdpiasdepartment"
+            android:exported="true" />
+        <activity
+            android:name=".i2imdepartment"
+            android:exported="true" />
+        <activity
+            android:name=".depstardepartment"
+            android:exported="true" />
+        <activity
+            android:name=".cspitdepartment"
+            android:exported="true" />
+        <activity
+            android:name=".cmpicadepartment"
+            android:exported="true" />
+        <activity
+            android:name=".sign_up"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".payment1"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>
